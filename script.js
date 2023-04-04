@@ -51,7 +51,7 @@ keys.addEventListener('click', event => {
     display.value = displayValue / 100;
   }
 
-  // Handle equal key
+  
   if (key.classList.contains('equal-sign')) {
     const previousValue = calculator.dataset.previousValue;
     const operator = calculator.dataset.operator;
@@ -65,7 +65,7 @@ keys.addEventListener('click', event => {
   }
 });
 
-// Define the calculate function
+
 const calculate = (n1, operator, n2) => {
   let result = '';
 
